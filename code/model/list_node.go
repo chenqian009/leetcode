@@ -1,6 +1,12 @@
 package model
 
 type ListNode struct {
-	Value int
-	Next  *ListNode
+	Val  int
+	Next *ListNode
+}
+
+type TreeNode struct {
+	Val   string
+	Left  *TreeNode
+	Right *TreeNode
 }
